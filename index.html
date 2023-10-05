@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Panic Quote Generator</title>
+  </head>
+
+  <body>
+    <main>
+      <h1>Panic Quote Generator</h1>
+      <section class="container">
+        <section class="inputs">
+          <label for="quote-input">
+            <input type="text" id="quote-input" placeholder="Enter your text" />
+          </label>
+          <button type="submit" class="btn" onclick="getPanicQuote()">
+            Submit
+          </button>
+        </section>
+
+        <section class="results">
+          <label for="quote-result">
+            <textarea
+              title="panicked text result"
+              placeholder="Panicked text here"
+              name="quote-result"
+              id="quote-result"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+          <button id="btn-copy" class="btn" onclick="copyContent()">Copy!</button>
+        </section>
+      </section>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>

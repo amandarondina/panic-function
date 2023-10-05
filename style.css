@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&family=Pinyon+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b1b1b;
+}
+
+h1 {
+  font-family: "Creepster", cursive;
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  color: #db4a2b;
+}
+
+main {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.container {
+  width: 100%;
+  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 1.2rem;
+}
+
+#quote-input,
+#quote-result {
+  font-family: "Roboto", sans-serif;
+  font-size: 700;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #f8f5f4;
+}
+
+.results {
+  width: 100%;
+}
+
+.btn {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  border-radius: 100px;
+  background-color: #db4a2b;
+  text-transform: uppercase;
+  color: white;
+}
+
+#btn-copy {
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
